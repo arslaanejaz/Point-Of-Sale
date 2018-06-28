@@ -25,7 +25,7 @@
                            {!! Form::submit('Login', ['class' => 'btn-default pull-right']) !!}
 
              
-            	<a href="#">Forgot your password?</a>
+            	{{--<a href="#">Forgot your password?</a>--}}
 				
 				  {!! Form::token() !!}
     {!! Form::close() !!}

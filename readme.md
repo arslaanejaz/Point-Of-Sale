@@ -1,3 +1,6 @@
+<h2>Point Of Sale Project</h2>
+<p>In this web application you can sale and puurchase any products and manage there inventories. And multiple end points can use this system simultaneously. And can see the reports. Barcode reader is integrated in this web application.</p>
+
 <h2>Pre-requisites and Dependencies:</h2>
 
 <p>This project is developed in Laravel 5.1.9 so system requirements are,</p>
@@ -8,9 +11,8 @@
 <li>PDO PHP Extension</li>
 <li>Mbstring PHP Extension</li>
 <li>Tokenizer PHP Extension</li>
-<li>XML PHP Extension
-Database is used: Mysql
-Other Libraries: angularjs and google maps.</li>
+<li>XML PHP Extension</li>
+<li>Database is used: Mysql</li>
 </ul>
 
 <h2>Installation Instructions:</h2>
@@ -25,7 +27,6 @@ Other Libraries: angularjs and google maps.</li>
 <p>After taking pull from git run these commands:</p>
 <code>composer install</code>
 
-</p>
 <p>Create the database tables.</p>
 <code>php artisan migrate</code> 
 
@@ -40,6 +41,6 @@ Other Libraries: angularjs and google maps.</li>
 <code>username: admin and password: admin </code>
 
 
-<p>I set up this working project on AWS server http://34.208.197.201:8082</p>
+<p>I set up this working project on AWS server http://34.208.197.201:8083</p>
 
 

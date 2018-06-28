@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>POS</title>
+	<title>Point Of Sale</title>
  
 	<script src="{{ url('/assets/js/jquery.js') }}"></script>
 <!-- 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -23,9 +23,9 @@
         
         <div class="alert pull-right">
         	<ul>
-                <li><a href="#">I want some Help</a></li>
+                {{--<li><a href="#">I want some Help</a></li>--}}
                 
-                <li><a href="{{ url('/auth/register') }}"><button class="btn btn-default" >Create new Account</button></a></li>
+                {{--<li><a href="{{ url('/auth/register') }}"><button class="btn btn-default" >Create new Account</button></a></li>--}}
         	</ul>
         </div>
     </div>
